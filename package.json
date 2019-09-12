@@ -1,8 +1,8 @@
 {
-  "name": "javascript-template-action",
-  "version": "0.0.0",
+  "name": "setup-dmd",
+  "version": "0.1.0",
   "private": true,
-  "description": "JavaScript template action",
+  "description": "Installs DMD as a GitHub action",
   "main": "lib/main.js",
   "scripts": {
     "build": "tsc",
@@ -17,10 +17,11 @@
     "node",
     "setup"
   ],
-  "author": "YourNameOrOrganization",
+  "author": "WebFreak001",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.0.0"
+    "@actions/core": "^1.1.0",
+    "@actions/tool-cache": "^1.1.1"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",

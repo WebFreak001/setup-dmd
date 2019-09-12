@@ -1,10 +1,10 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'Setup DMD'
+description: 'Install the DMD compiler along with DUB and dependencies'
+author: 'WebFreak001'
 inputs:
-  myInput:              # change this
-    description: 'input description here'
-    default: 'default value if applicable'
+  dmd-version:
+    description: 'DMD version string starting with 2.'
+    required: true
 runs:
   using: 'node12'
   main: 'lib/main.js'
