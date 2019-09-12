@@ -1,5 +1,5 @@
 name: 'Setup DMD'
-description: 'Install the DMD compiler along with DUB and dependencies'
+description: 'Install the dlang DMD compiler along with DUB and dependencies'
 author: 'WebFreak001'
 branding:
   icon: 'download'
