@@ -4,6 +4,20 @@ Automatically downloads and installs [DMD](https://dlang.org/download.html) on W
 
 ## Usage
 
+Simply add setup-dmd with a given dmd-version to install dmd somewhere into your virtual environment and automatically add it to the PATH environment variable.
+
+The installed path will be available as environment variable in D_HOME.
+
+Valid DMD version string examples are:
+- `2.088.0`
+- `2.088.0-beta.2`
+- `2.064` (this syntax only for <= 2.064)
+- `master`
+
+Use `master` to download the nightly build from the D homepage.
+
+You can check for release numbers and pre-releases in http://downloads.dlang.org/pre-releases/2.x/
+
 Basic:
 ```yaml
 steps:
