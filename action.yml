@@ -1,6 +1,10 @@
 name: 'Setup DMD'
 description: 'Install the DMD compiler along with DUB and dependencies'
 author: 'WebFreak001'
+branding:
+  icon: 'download'
+  color: 'red'
+
 inputs:
   dmd-version:
     description: 'DMD version string starting with 2.'
