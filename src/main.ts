@@ -104,7 +104,7 @@ export async function installDMD(dmdVersion: string): Promise<string> {
   let dstdir: string;
   switch (type) {
     case "tarxz":
-      dstdir = await tc.extractTar(tmppath);
+      dstdir = await tc.extractTar(tmppath, undefined, "xJ");
       break;
     case "7z":
       dstdir = await tc.extract7z(tmppath);
