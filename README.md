@@ -1,3 +1,11 @@
+# ============= OBSOLETE =============
+
+**THIS PROJECT HAS BEEN DEPRECATED IN FAVOR OF [setup-dlang](https://github.com/mihails-strasuns/setup-dlang) WHICH OFFERS THE SAME FUNCTIONALITY PLUS SUPPORT FOR LDC AND AUTOMATIC PRE-RELEASES.** ([Marketplace link](https://github.com/marketplace/actions/d-compiler-installation))
+
+---
+
+old readme for reference, this project only supports setting up dmd and not ldc and doesn't setup dub in older versions. Use the above mentioned project instead for this.
+
 # setup-dmd
 
 Automatically downloads and installs [DMD](https://dlang.org/download.html) on Windows, Linux and OSX in a GitHub Action.
